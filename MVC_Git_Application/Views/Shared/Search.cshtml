@@ -1,0 +1,13 @@
+﻿<div class="widget">
+    @using(Html.BeginForm("List", "Products", FormMethod.Get, new { @class = "form-inline" }))
+    {
+    <!--<form class="form-inline">-->
+    <div class="input-group">
+        <input type="text" id="q" name="q" class="form-control input-lg" placeholder="Arama...">
+        <span class="input-group-btn">
+            <button class="btn btn-default btn-lg" type="submit"><i class="fa fa-search"></i></button>
+        </span>
+    </div>
+    <!-- </form>-->
+    }
+</div>
